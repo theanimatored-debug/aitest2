@@ -92,7 +92,7 @@
     const preview = document.getElementById('preview');
     preview.src = '';
 
-    const response = await fetch("https://mute-limit-5d11.theanimatored.workers.dev/", {
+    const response = await fetch("https://mute-limit-5d11.theanimatored.workers.dev", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ prompt })
@@ -109,3 +109,4 @@
 
 </body>
 </html>
+
